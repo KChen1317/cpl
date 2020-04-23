@@ -15,10 +15,10 @@ line with rlc#a;b
 hey this is not actual code
 newlines and ;are valid delimiters; just if u use a semicolon;
 you need to end the line with one
-line with later mlc;/#starting now 
+line with later mlc/#starting now 
 /#ending here
 # expected out put up to here
 #   'line 1;', 'line 2;', 'line 3 with space after this ;', 'line 4 with tab after this  ;', '#a comment', '/#a multiline comment ', 
 #   '/#a longer one middle end', '', 'empty line above (with semicolon delimiter);', 'line with;', 'interupt in the middle;', 'line with rlc', '#a;b', 'newlines and ;', 
-#   'are valid delimiters;', ' just if u use a semicolon;', 'line with later mlc;', '/#starting now ending here'
+#   'are valid delimiters;', ' just if u use a semicolon;', 'line with later mlc', '/#starting now ending here'
 last line(actual total:22,seperated lines:22);

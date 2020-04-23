@@ -136,9 +136,8 @@ def seperate_line(lines):       ###need to figure out delimiters
                             curr_pointer=line_len
                             multi_line_comment=True
                         else:
-                            prev_part_of_line_1=line[prev_pointer:curr_pointer]
-                            seperate_line.append(prev_part_of_line_1)
-                            prev_part=line[curr_pointer:line_end]
+                            seperated_lines.append(line[prev_pointer:curr_pointer])
+                            prev_part=line[curr_pointer:line_len]
                             print("dumped any front component")
                             multi_line_comment=True
                             curr_pointer=line_len
