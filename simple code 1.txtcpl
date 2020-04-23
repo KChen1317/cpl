@@ -1,0 +1,17 @@
+#comment
+if 1==1:;
+{main();};
+
+def main();
+var_init(x);
+x=input();
+print(x)/#mlc ps x will be a str thanks to input()
+/# end of mlc
+if x==1;
+{print("x=1");#another random comment
+};
+else;
+{print("x not equal to one");};#ps in this "program" there is no way to do formatting of the string
+#each command must be semicolon seperated
+/#end of conditionals must also be seperated
+/#txtcpl line:17
